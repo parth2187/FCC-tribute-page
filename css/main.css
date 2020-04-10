@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    background-color: #2C3A47;
+    
+}
+
+h1 {
+  
+    font-family: Sans-Serif;
+    font-size: 50px;
+    background-color: #CAD3C8;
+}
+
+@media (max-width: 460px) {
+  #main {
+    margin: 0;
+  }
+}
+
+h2 {
+      font-family: monospace;
+     color: #007AA3
+}
+
+#image {
+width: 100%;
+height: auto;
+max-width: 460px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+#img-caption {
+  font-family: Sans-Serif;
+  color: white;
+}
+
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem;
+  }
+}
+
+p {
+  font-family: Helvetica;
+}
+
+#tribute-info {
+ background-color: #dfe6e9;
+}
+
+#footer {
+  background-color: #dfe6e9;
+}
